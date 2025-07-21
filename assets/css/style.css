@@ -119,3 +119,11 @@ p {
 .img_profile {
     width: 200px;
 }
+
+/* Estilização da Seção Video */
+
+#video, #musicas {
+    flex-direction: column;
+    margin: 2rem auto;
+    width: 90%;
+}
