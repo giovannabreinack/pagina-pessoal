@@ -17,7 +17,7 @@
     <!-- Cabeçalho da Página (header) -->
     <header>
         <!-- Div Conteudo do Cabeçalho -->
-        <div id="header_content">
+        <div id="header_content" class="flex">
             <!-- Titulo do Cabeçalho -->
             <div id="titulo">
                 <h1>Giovanna Breinack</h1>
@@ -45,10 +45,10 @@
     <!-- Seção Principal da Página (main) -->
     <main>
         <!-- Seção Sobre você -->
-        <section id="about">
+        <section id="about" class="flex_start">
             <h2>Sobre Mim</h2>
             <!-- Conteúdo da Seção -->
-            <div id="conteudo">
+            <div id="conteudo" class="flex">
                 <!-- Imagem do criador do conteúdo -->
                 <img src="./assets/img//105086221.jpeg" alt="Foto do criador desse conteudo" width="300" height="300" />
                 <!-- Texto sobre o criador do conteúdo -->
@@ -61,11 +61,13 @@
                         <br>
                         No meu tempo livre gosto de jogar no meu PS4 e estudar um pouco de programação.
                     </p>
+                </article>
+            </div>
         </section>
         <!-- Seção contendo um vídeo de sua preferência -->
-        <section id="video">
+        <section id="video" class="flex_start">
             <h2>Meu Vídeo Favorito</h2>
-            <div class="youtube">
+            <div id="youtube" class="flex">
                 <iframe width="560" height="315"
                     src="https://www.youtube.com/embed/o-xFqjEm0-k?si=GbHdrVSmyXapvgxb&amp;start=1"
                     title="YouTube video player" frameborder="0"
@@ -75,7 +77,7 @@
         </section>
     </main>
     <!-- Rodapé da Página (footer) -->
-    <footer>
+    <footer class="flex">
         <section id="redes_sociais">
             <a href="https://www.linkedin.com/in/giovanna-colombara/">
                 <img src="assets/img/linkedin.svg" alt="LinkedIn" />

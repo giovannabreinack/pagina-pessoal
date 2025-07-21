@@ -60,3 +60,16 @@ p {
     text-align: justify;
     padding: 0.5rem 0;
 }
+
+/* Definindo as configurações do Flexbox */
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_start {
+    display: flex;
+    justify-content: flex-start;
+}
